@@ -1,0 +1,267 @@
+body{
+  
+}
+* {margin:0;}
+
+.header{
+ background-color: rgb(14,23,43);
+ top:0;
+ left:0;
+ right:0;
+ height: 13vh;
+ color:rgb(226, 220, 220);
+ font-family: Rubik;
+}
+.header-elements{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:15vh;
+}
+
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 26px;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.left-section{
+  margin-right: 80px;
+  margin-left: 50px;
+  align-items: center;
+  width:80px;
+  
+}
+
+.right-section{
+  margin-left:80px;
+  
+}
+.rd-logo{
+  height:60px;
+  width:60px;
+  
+}
+.search-button{
+  height:28px;
+  width:70px;
+  background-color:#0e172b;
+  color:rgb(226, 220, 220);
+  border-style:solid;
+  border-width:thin;
+  border-color: white;
+  border-radius: 10px;
+  align-items: center;
+  transition:0.18s;
+  
+}
+.search-button:hover{
+  box-shadow:-2.2px 3px rgb(211, 25, 87);
+  transform:translate(3px,-2.2px);
+  
+}
+
+.page-heading{
+  height:250px;
+  background-color:rgb(14,23,43);
+  font-family: Rubik;
+  text-align: center;
+  Display:flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px;
+  border-color: rgb(211, 25, 87);
+  border-bottom-style:solid ;
+  position: relative;   
+}
+
+.Container{
+  background-color: rgb(12,20,37);
+  height:412px;
+  font-family: Rubik;
+  Color:rgb(226, 220, 220);
+  display:flex;
+  padding:0;
+  margin:0;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px;
+  border-color: rgb(211, 25, 87);
+  border-bottom-style:solid ;
+}
+.Boxes{
+  background-color: rgb(12,20,37);
+  width:230px;
+  height:45px;
+  align-items: center;
+  align-content: center;
+  margin:auto;
+  border-radius: 10px;
+  Color:rgb(149,162,184);
+  text-align: start;
+  padding-left: 18px;
+  border:0.5px;
+  border-style:solid;
+  border-width:thin;
+  transition:0.18s;
+  font-weight: 700;
+  
+
+}
+.Boxes:hover{
+  border:1px;
+  border-style:solid;
+  
+  box-shadow:-2.2px 3px rgb(211, 25, 87);
+  transform:translate(3px,-2.2px);
+  
+    
+}
+.Grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.devops_svg{
+  height:30px;
+  width:90px;
+  margin-left: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 15px;
+  margin-bottom:1.5px;
+}
+.React{
+  display: inline-block;
+  height:30px;
+  vertical-align: middle;
+  margin-left:100px;
+  margin-bottom:3.5px;
+
+}
+
+.Container1{
+  background-color: rgb(249,250,251);
+  height:1000px;
+  border-bottom: 1px solid rgb(211, 25, 87);
+}
+
+.subgrid-1{
+  Display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap:10px;
+  margin-top: 10px;
+  padding-top: 4rem;
+  font-family: Rubik;
+}
+.guides-header{
+  margin-right: 45%;
+  margin-bottom: 1rem;
+  transition:0.2s;
+}
+.guides-header:hover{
+  transform: scale(1.15,1.15);
+  color:rgb(211, 25, 87);
+  
+}
+.sub-Boxes{
+  background-color: rgb(249,250,251);
+  width:800px;
+  color:rgb(75,85,99);
+  display: flex;
+  margin-top: 15px;
+  padding-bottom:7px;
+  flex: 1;
+  justify-content: space-between;
+  height:45px;
+  border-bottom: 2px solid rgb(201, 201, 201);
+  transition: 0.2s;
+  align-items: center;
+  
+}
+.sub-Boxes-text{
+  transition: 0.28s;
+  
+}
+.sub-Boxes-text:hover{
+  color:skyblue;
+  transform:translate(20px,0.1px);
+  
+}
+.Guides-button{
+  background-image: linear-gradient(to right, rgb(70,85,102), rgb(5,4,6));
+  color:rgb(226, 220, 220);
+  border-style:solid;
+  border-width:thin;
+  border-color: white;
+  border-radius: 20px;
+  margin-right: 45%;
+  transition:0.18s;
+  height:40px;
+  width:auto;
+  font-family: rubik;
+
+}
+.Guides-button:hover{
+  box-shadow:-2.2px 3px rgb(211, 25, 87);
+  transform:translate(3px,-2.2px);
+  
+}
+
+.container-2{
+  background-color:rgb(255,254,254);
+  height:200px;
+  color:aliceblue;
+  font-family: Rubik;
+  display: flex;
+  align-items: center;
+  color:rgb(1,0,1);
+  
+  border-bottom: 1px solid rgb(211, 25, 87);
+}
+
+.Container-flex{
+  width:100%
+}
+
+.twobuttons{
+  margin-top: 10px;
+  
+}
+
+.container-2content{
+  gap:0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-between;
+
+}
+
+.github{
+  background-color: rgb(255,254,254);
+  border-radius: 17.5px;
+  height:35px;
+  width:10rem;
+  margin-left: 10px;
+  font-family: Rubik;
+  border: 0.5px solid black;
+  transition:0.25s
+}
+.github:hover{
+  color:rgb(255, 254, 254);
+  background-color: black;
+  transform:translate(3px,-2.2px);
+}
+
+.footer{
+  background-color: rgb(15,22,43);
+  height: 400px;
+}
