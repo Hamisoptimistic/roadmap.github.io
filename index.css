@@ -17,6 +17,8 @@ body{
   justify-content: space-between;
   align-items: center;
   height:15vh;
+
+
 }
 
 .middle-section{
@@ -263,4 +265,5 @@ body{
 .footer{
   background-color: rgb(15,22,43);
   height: 400px;
+  wifth:
 }
