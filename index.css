@@ -1,5 +1,5 @@
 body{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Rubik, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 * {margin:0;}
 
@@ -243,6 +243,7 @@ body{
   flex-direction: column;
   align-items:center;
   justify-content:space-between;
+  text-wrap: balance;
 
 }
 
@@ -259,10 +260,74 @@ body{
 .github:hover{
   color:rgb(255, 254, 254);
   background-color: black;
+  box-shadow:-2.2px 3px rgb(211, 25, 87);
   transform:translate(3px,-2.2px);
-}
 
+}
+.communityhead{
+transition:0.2s;
+}
+.communityhead:hover{
+  transform: scale(1.15,1.15);
+  color:rgb(211, 25, 87);
+}
+  
 .footer{
   background-color: rgb(15,22,43);
   height: 400px;
+  color:white;
+}
+.para{
+  text-wrap: balance;
+  width:50%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+
+.footer-topbar{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  column-gap: 10px;
+  padding-top:40px;
+  transition: 0.2;
+}
+
+.owner-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap:10px;
+  
+}
+.newstack{
+  width:20%;
+  height: 50px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  column-gap:3rem;
+  padding-top:100px;
+  padding-left:82px;
+  row-gap: 10px;
+  margin-top:10px;
+  text-align: start;
+  text-wrap: balance;
+  
+  
+
+}
+
+.cont1{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  
+
 }
