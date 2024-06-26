@@ -10,7 +10,7 @@ body{
  right:0;
  height: 13vh;
  color:rgb(226, 220, 220);
- font-family: Rubik;
+ font-family: Roboto;
 }
 .header-elements{
   display:flex;
