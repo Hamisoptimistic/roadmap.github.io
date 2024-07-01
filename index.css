@@ -110,8 +110,14 @@ body{
   border-width:thin;
   transition:0.18s;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
   
 
+}
+
+.Boxes i{
+    font-size: 20px;
 }
 .Boxes:hover{
   border:1px;
