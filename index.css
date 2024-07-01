@@ -80,6 +80,15 @@ body{
   position: relative;   
 }
 
+.boxes,i{
+    font-size: 20px;
+}
+
+
+.asp{
+    font-size:5px;
+}
+
 .Container{
   background-color: rgb(12,20,37);
   height:412px;
